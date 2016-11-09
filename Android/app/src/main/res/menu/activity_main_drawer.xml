@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="用户管理">
+        <menu>
+            <item
+                android:id="@+id/nav_btn1"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="注册登录" />
+            <item
+                android:id="@+id/nav_btn2"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="资料管理" />
+            <item
+                android:id="@+id/nav_btn3"
+                android:icon="@drawable/ic_menu_send"
+                android:title="退出登录" />
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="上传管理" />
+    </group>
+</menu>
